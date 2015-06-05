@@ -1,0 +1,28 @@
+import org.antlr.v4.runtime.atn.*;
+import org.antlr.v4.runtime.dfa.DFA;
+import org.antlr.v4.runtime.*;
+import org.antlr.v4.runtime.misc.*;
+import org.antlr.v4.runtime.tree.*;
+import java.util.List;
+import java.util.Iterator;
+import java.util.ArrayList;
+
+int foo(bool k, bool m) {
+
+    if(m = 7) {      sTYPE e = 56;    }
+    if(m = 8) int r = 9;
+    if(r = 9)
+    { bool k = 1; }
+    else
+     {int y = 0;}
+
+
+
+
+
+
+
+
+
+
+    }
