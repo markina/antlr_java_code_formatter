@@ -1,7 +1,26 @@
+import List;
+import List.tt.*;
+import List.Arr;
+
+
+
 int main (int a) {
- bool t = 5;
- r = 0 || dfdg;
- r
- *= 4;
-int y = t+6*9/89+r&&t;
+            bool t = 5;
+            r = 0 || d;
+            r
+               *=
+                   4;
+            int y = t+6*9/89+r&&t;
+            int count = 0;
+            int y = t+6*9/89+r&&t;
+
+            if(tr > rt) {
+            bool r = 89 && 45;
+
+            }
+
+
+
+            else
+            { t = 90; }
 }

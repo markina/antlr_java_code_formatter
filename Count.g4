@@ -40,7 +40,6 @@ start
 methodDeclarations returns [String toString]
     : methodDeclaration {$toString = $methodDeclaration.toString; }
     | methodDeclaration m=methodDeclarations {$toString = $methodDeclaration.toString + $m.toString; }
-    | assignmentExpression
     ;
 
 importStatements returns [String toString]
@@ -131,8 +130,9 @@ selectionStatement returns [String toString]
 
 expression returns [String toString]
     : assignmentExpression {$toString = $assignmentExpression.toString; }
-    | conditionalExpression {$toString = $conditionalExpression.toString; }
+    | arithmeticExpression {$toString = $arithmeticExpression.toString; }
     ;
+
 
 assignmentExpression returns [String toString]
 	: qualifiedName assignmentOperator expression  {$toString = $qualifiedName.text + " " + $assignmentOperator.text + " " + $expression.toString; }
@@ -150,9 +150,9 @@ assignmentOperator
 	| '|='
 	;
 
-conditionalExpression returns [String toString]
+arithmeticExpression returns [String toString]
     : primaryExpression {$toString = $primaryExpression.toString; }
-    | c=conditionalExpression operator primaryExpression {$toString = $c.toString + " " + $operator.text + " " + $primaryExpression.toString; }
+    | c=arithmeticExpression operator primaryExpression {$toString = $c.toString + " " + $operator.text + " " + $primaryExpression.toString; }
     ;
 
 operator
