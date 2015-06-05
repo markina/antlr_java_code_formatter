@@ -1,0 +1,6 @@
+import list;
+
+public class A {
+    int m(int r) {
+    }
+}

@@ -1,0 +1,26 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.*;
+
+public class A {
+ public void solve()  {
+
+ if(t == 0)
+  t += 1;
+
+ if(t == sum + 45 / rt) {
+  t = 90;
+ }
+
+ while(y) {
+  y = 0;
+ }
+
+ while(y)
+  y = 0;
+
+
+ }
+}

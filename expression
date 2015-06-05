@@ -3,24 +3,97 @@ import List.tt.*;
 import List.Arr;
 
 
+abstract class A {
+    int m(){
+    if(i == 0) {
+            break;
+    }
 
-int main (int a) {
-            bool t = 5;
-            r = 0 || d;
-            r
-               *=
-                   4;
-            int y = t+6*9/89+r&&t;
-            int count = 0;
-            int y = t+6*9/89+r&&t;
+    while(i==0) {
+        int y
+        = 0;
+        if(i==0) { break;
+        }
+    }
 
-            if(tr > rt) {
-            bool r = 89 && 45;
+    return 5;
+    }
 
+int m(){
+    if(i==0) {
+            break;
+    }
+
+    while(i==0)
+    {
+        int y=0;
+        if(i==0) {
+         break; }
+    }
+
+    return 5;
+    }
+
+
+}
+
+
+
+abstract class A {
+            int main (int a) {
+                        bool t = 5;
+
+                        r
+                           *=
+                               4;
+                        int y=t+6*9/89+r&&t;
+                        int count=0;
+                        int y=t+6*9/89+r&&t;
+
+                        if(tr>rt) {
+                        bool r=89 && 45;
+
+                        }
+
+
+
+                        else
+                        { t = 90; }
+            }
+             bool is(double r) {
+                    r = 0;
+                }
+
+                 bool is(double r) {
+                        r = 0;
+                    }
+
+}
+
+
+public class A {
+
+
+            int main (int a) {
+                        bool t = 5;
+
+                        r
+                           *=
+                               4;
+                        int y=t+6*9/89+r&&t;
+                        int count=0;
+                        int y=t+6*9/89+r&&t;
+
+                        if(tr > rt) {
+                        bool r = 89 && 45;
+
+                        }
+
+
+
+                        else
+                        { t = 90; }
             }
 
-
-
-            else
-            { t = 90; }
 }
+
